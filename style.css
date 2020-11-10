@@ -1,3 +1,5 @@
+    /*General Style*/
+
 body{
     margin: 0;
 }
@@ -6,6 +8,29 @@ img, iframe{
     width: 100%;
     border-radius: 8px;
 }
+
+
+main h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+
+main h3{
+    font-size: 20px;
+    text-align: center ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+
+main p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5; 
+}
+
+    /*contact Style*/
 
 form input,
 form textarea{
@@ -27,6 +52,8 @@ div ul li a:hover{
     color: pink;
 }
 
+    /*Introduction Style*/
+
 .intro{
     text-align: center;
     margin: 0;
@@ -35,24 +62,6 @@ div ul li a:hover{
 
 h2.intro{
     padding: 20px 0;
-}
-main h2{
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 500;
-}
-
-main h3{
-    font-size: 20px;
-    text-align: center ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 400;
-}
-
-main p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 5; 
 }
 
 .group{
@@ -71,6 +80,7 @@ header{
     margin-bottom: 40px;
 }
 
+   /*Header and Navigation Style*/
 header h1{
     color: white;
     text-align: center;
@@ -98,7 +108,7 @@ header nav ul li a{
     margin: 0 20px 0 0 ;
     font-weight: 400;
 }
-
+  /*Footer Style*/
 footer{
     background-color: skyblue;
     margin-bottom: 40;
@@ -111,6 +121,8 @@ footer h3{
     color:white;
 }
 
+
+    /*Desktop Style*/
 @media all and (min-width: 800px){
     header{
         display: flex;
